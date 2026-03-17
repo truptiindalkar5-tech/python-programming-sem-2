@@ -1,0 +1,8 @@
+#-*-expt5 act2-*-
+"""
+@author:Trupti Indalkar class1 = {1, 2, 3, 4, 5}
+class2 = {4, 5, 6, 7}
+
+common_students = class1 & class2
+
+print("Students in both classes:", common_students)
