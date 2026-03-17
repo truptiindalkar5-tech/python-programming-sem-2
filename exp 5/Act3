@@ -1,0 +1,17 @@
+#-*-expt5 act3-*-
+"""
+@author : Trupti Indalkar inventory = {
+    "Pen": 10,
+    "Book": 5,
+    "Pencil": 20
+}
+
+item = input("Enter item name: ")
+qty = int(input("Enter quantity to add: "))
+
+if item in inventory:
+    inventory[item] += qty
+else:
+    inventory[item] = qty
+
+print("Updated inventory:", inventory)
