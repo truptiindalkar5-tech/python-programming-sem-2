@@ -1,0 +1,9 @@
+#-*-expt5 act5-*-
+"""
+@author:Trupti Indalkar 
+account1 = {"ram", "shyam", "rita", "amit"}
+account2 = {"rita", "amit", "john"}
+
+common = account1.intersection(account2)
+
+print("Common followers:", common)
