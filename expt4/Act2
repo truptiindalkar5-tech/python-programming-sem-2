@@ -1,0 +1,12 @@
+#-*-expt4 act2-*-
+"""
+@author:- Trupti Indalkar prices = []
+
+n = int(input("Enter number of products: "))
+for i in range(n):
+    p = float(input("Enter price: "))
+    prices.append(p)
+
+total = sum(prices)
+
+print("Total Bill =", total)
