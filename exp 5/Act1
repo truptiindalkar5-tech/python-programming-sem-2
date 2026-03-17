@@ -1,0 +1,17 @@
+#-*-expt5 act1-*-
+"""
+@author: Trupti Indalkar 
+books = {
+    "Python": 300,
+    "Java": 400,
+    "C++": 350
+}
+
+book_name = input("Enter book name to update: ")
+
+if book_name in books:
+    new_price = int(input("Enter new price: "))
+    books[book_name] = new_price
+    print("Updated dictionary:", books)
+else:
+    print("Book not found")
