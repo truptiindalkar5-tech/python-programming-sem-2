@@ -1,0 +1,8 @@
+#-*-expt2 act 3-*-
+@author:Trupti Indalkar 
+salary = int(input("Enter salary: "))
+
+if salary >= 25000:
+    print("Loan Approved")
+else:
+    print("Loan Rejected")
