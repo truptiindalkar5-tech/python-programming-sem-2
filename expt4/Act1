@@ -1,0 +1,15 @@
+#-*-expt4 act1-*-
+"""
+@author: Trupti Indalkar 
+marks = []
+
+n = int(input("Enter number of students: "))
+for i in range(n):
+    m = int(input("Enter marks: "))
+    marks.append(m)
+
+avg = sum(marks) / len(marks)
+topper = max(marks)
+
+print("Average =", avg)
+print("Topper marks =", topper)
