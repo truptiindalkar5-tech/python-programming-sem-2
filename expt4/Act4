@@ -1,0 +1,9 @@
+#-*-expt4 act4-*-
+"""
+@author: Trupti Indalkar 
+review = input("Enter review: ")
+word = input("Enter word to count: ")
+
+count = review.lower().count(word.lower())
+
+print("Word appears", count, "times")
