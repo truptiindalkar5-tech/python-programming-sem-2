@@ -1,0 +1,11 @@
+#-*-expt3 act4-*-
+"""
+@author:Trupti Indalkar 
+def stairs(n):
+    if n == 0:
+        return 0
+    else:
+        return n + stairs(n-1)
+
+n = int(input("Enter number of steps: "))
+print("Total stairs climbed =", stairs(n))
