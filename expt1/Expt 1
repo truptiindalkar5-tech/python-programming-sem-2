@@ -1,0 +1,14 @@
+# -*- expt 1 -*-
+"""
+Created on Mon Mar 16 11:13:45 2026
+
+@author: truptiindalkar
+"""
+
+name = input("Enter your name: ")
+address = input("Enter your address: ")
+contact = input("Enter your contact number: ")
+
+print("Name:", name)
+print("Address:", address)
+print("Contact Number:", contact)
