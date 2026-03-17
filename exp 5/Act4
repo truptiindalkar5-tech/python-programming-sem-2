@@ -1,0 +1,14 @@
+#-*-expt5 act4 -*-
+"""
+@author:Trupti Indalkar 
+items = ["apple", "banana", "apple", "orange", "banana", "apple"]
+
+freq = {}
+
+for item in items:
+    if item in freq:
+        freq[item] += 1
+    else:
+        freq[item] = 1
+
+print("Item frequency:", freq)
