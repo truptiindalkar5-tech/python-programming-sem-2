@@ -1,0 +1,8 @@
+#-*-expt4 act3-*-
+"""
+@author:Trupti Indalkar 
+msg = input("Enter feedback: ")
+
+reverse_msg = msg[::-1]
+
+print("Reversed message =", reverse_msg)
