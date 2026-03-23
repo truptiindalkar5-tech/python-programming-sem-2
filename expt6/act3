@@ -1,0 +1,11 @@
+# -*- files & display all complaints -*-
+"""
+Created on Mon Mar 23 05:48:41 2026
+
+@author: trupti
+"""
+
+with open("complaints.txt", "r") as f:
+    print("All Complaints:")
+    for line in f:
+        print(line.strip())
